@@ -74,4 +74,6 @@ insert into 주문 values   ('o07', 'apple', 'p03', 22, '서울시 영등포구'
 insert into 주문 values   ('o08', 'pear', 'p02', 50, '강원도 춘천시','26/06/03');
 insert into 주문 values   ('o09', 'banana', 'p04', 15, '전라남도 목포시','26/07/08');
 insert into 주문 values   ('o10', 'carrot', 'p03', 20, '경기도 안양시','26/08/20');
-
+SELECT *
+FROM 주문
+ORDER BY 주문번호 ASC;
